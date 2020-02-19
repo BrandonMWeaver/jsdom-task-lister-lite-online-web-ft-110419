@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () =>
     document.getElementById("new-task-description").value = '';
   });
   
-  document.querySelector("button").addEventListener("click", function(event)
+  document.querySelectorAll("button").addEventListener("click", function(event)
   {
     event.target.parentNode.remove();
   });
