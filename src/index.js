@@ -4,5 +4,7 @@ document.addEventListener("DOMContentLoaded", () =>
   button.addEventListener("click", function(event)
   {
     event.preventDefault();
+    let ul = document.createElement("ul");
+    
   });
 });
