@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () =>
     const ul = document.getElementById("list");
     const li = document.createElement("li");
     deleteButton = document.createElement("button");
-    deleteButton.innerHTML = 'x';
+    deleteButton.innerHTML = 'X';
     li.innerHTML = document.getElementById("new-task-description").value;
     li.append(deleteButton);
     ul.append(li);
