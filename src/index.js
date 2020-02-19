@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () =>
     const ul = document.getElementById("list");
     const li = document.createElement("li");
     li.innerHTML = document.getElementById("new-task-description").value;
-    li.append(document.createElement("button"));
+    li.append(document.createElement("button").innerHTML = 'x');
     ul.append(li);
   });
 });
