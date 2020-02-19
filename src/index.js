@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () =>
   let button = document.querySelector("button");
   button.addEventListener("click", function(event)
   {
-    if (event.target.nodeName)
+    if (event.target.nodeName === "BUTTON")
+      
   });
 });
