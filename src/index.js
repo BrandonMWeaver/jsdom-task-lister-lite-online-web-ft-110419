@@ -16,6 +16,6 @@ document.addEventListener("DOMContentLoaded", () =>
   let button = document.querySelector("button");
   button.addEventListener("click", function(event)
   {
-    button.parent
+    button.parentNode.remove();
   });
 });
