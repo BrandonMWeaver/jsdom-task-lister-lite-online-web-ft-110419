@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () =>
   {
     event.preventDefault();
     const ul = document.getElementById("list");
-    const li = document.createElement("li").innerText = ;
+    const li = document.createElement("li");
+    li.innerText = document.getElementById("")
   });
 });
