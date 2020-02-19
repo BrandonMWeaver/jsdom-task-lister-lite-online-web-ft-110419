@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () =>
     event.preventDefault();
     const ul = document.getElementById("list");
     const li = document.createElement("li");
-    li.innerHTML = document.getElementById("new-task-description").innerText;
+    li.innerHTML = document.getElementById("new-task-description").value;
     ul.append(li);
   });
 });
