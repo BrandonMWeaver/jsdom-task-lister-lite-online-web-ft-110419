@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-  function submit()
+  const button = document.querySelector("form input[type=\"submit\"]");
 });
