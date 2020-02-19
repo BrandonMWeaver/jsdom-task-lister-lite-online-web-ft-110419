@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () =>
   button.addEventListener("click", function(event)
   {
     event.preventDefault();
-    const ul = document.getElementById("");
+    const ul = document.getElementById("list");
     
   });
 });
