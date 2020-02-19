@@ -7,5 +7,6 @@ document.addEventListener("DOMContentLoaded", () =>
     const ul = document.getElementById("list");
     const li = document.createElement("li");
     li.innerText = document.getElementById("new-task-description").innerText;
+    ul.append(li);
   });
 });
