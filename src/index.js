@@ -6,8 +6,10 @@ document.addEventListener("DOMContentLoaded", () =>
     event.preventDefault();
     const ul = document.getElementById("list");
     const li = document.createElement("li");
+    deleteButton = document.createElement("button");
+    deleteButton.innerHTML = 'x';
     li.innerHTML = document.getElementById("new-task-description").value;
-    li.append(document.createElement("button").innerHTML = 'x');
+    li.append(deleteButton);
     ul.append(li);
   });
 });
