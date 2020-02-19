@@ -8,16 +8,14 @@ document.addEventListener("DOMContentLoaded", () =>
     const ul = document.getElementById("list");
     const li = document.createElement("li");
     deleteButton = document.createElement("button");
-    deleteButton.innerHTML = 'X';
-    li.innerHTML = document.getElementById("new-task-description").value;
-    li.append(deleteButton);
-    ul.append(li);
-    
     deleteButton.addEventListener("click", function(event)
     {
       event.target.parentNode.remove();
     });
-    
+    deleteButton.innerHTML = 'X';
+    li.innerHTML = document.getElementById("new-task-description").value;
+    li.append(deleteButton);
+    ul.append(li);
     document.getElementById("new-task-description").value = '';
   });
 });
