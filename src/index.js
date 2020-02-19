@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", () =>
     ul.append(li);
   });
   
-  let buttons = document.querySelectorAll("button");
-  buttons.addEventListener("click", function(event)
+  let button = document.querySelector("button");
+  button.addEventListener("click", function(event)
   {
-    
-  })
+    button.parent
+  });
 });
