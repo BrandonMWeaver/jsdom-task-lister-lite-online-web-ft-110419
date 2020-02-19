@@ -12,11 +12,12 @@ document.addEventListener("DOMContentLoaded", () =>
     li.innerHTML = document.getElementById("new-task-description").value;
     li.append(deleteButton);
     ul.append(li);
-    document.getElementById("new-task-description").value = '';
     
     deleteButton.addEventListener("click", function(event)
     {
       event.target.parentNode.remove();
     });
+    
+    document.getElementById("new-task-description").value = '';
   });
 });
