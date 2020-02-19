@@ -12,11 +12,4 @@ document.addEventListener("DOMContentLoaded", () =>
     li.append(deleteButton);
     ul.append(li);
   });
-  
-  let button = document.querySelector("button");
-  button.addEventListener("click", function(event)
-  {
-    if (event.target.nodeName === "BUTTON")
-      
-  });
 });
