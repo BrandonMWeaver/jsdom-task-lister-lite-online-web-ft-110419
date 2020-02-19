@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () =>
 {
+  let button;
   const submitButton = document.querySelector("form input[type=\"submit\"]");
   submitButton.addEventListener("click", function(event)
   {
@@ -12,9 +13,11 @@ document.addEventListener("DOMContentLoaded", () =>
     li.append(deleteButton);
     ul.append(li);
     document.getElementById("new-task-description").value = '';
+    
+    button = document.querySelector("button");
   });
   
-  document.querySelector("button").addEventListener("click", function(event)
+  button.addEventListener("click", function(event)
   {
     event.target.parentNode.remove();
   });
